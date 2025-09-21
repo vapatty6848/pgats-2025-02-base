@@ -43,4 +43,4 @@ jobs:
       run: npm run test-rest-external
 
     - name: Rodar os testes de API via GraphQL
-      run: npm run test-graph-external
+      run: npm run test-graph-external 

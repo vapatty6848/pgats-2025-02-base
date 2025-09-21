@@ -9,7 +9,7 @@
     "test-rest": "mocha 'test/rest/user.test.js' --timeout 10000 --reporter mochawesome",
     "test-rest-external": "mocha 'test/rest/userExternal.test.js' --timeout 10000 --reporter mochawesome",
     "test": "mocha 'test/**/*.test.js' --timeout 10000 --reporter mochawesome",
-    "test-graph-external": "mocha 'test/graphql/testGraphql.test.js'--timeout 10000 --reporter mochawesome"
+    "test-graph-external": "mocha 'test/graphql/testGraphql.test.js' --timeout 10000 --reporter mochawesome"
   },
   "repository": {
     "type": "git",
